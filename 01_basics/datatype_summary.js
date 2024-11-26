@@ -33,9 +33,33 @@ const myFunction = function(){
     
 }
 
-console.log(typeof bigNumber);
+/*console.log(typeof bigNumber);
 console.log(typeof anotherId);
 console.log(typeof myFunction);
 console.log(typeof myObj);
 console.log(typeof isLoggedIn);
-console.log(typeof userEmail);
+console.log(typeof userEmail);*/
+
+//Stack (primitive ) , Heap(Non-Primitive)
+let myYoutubename = "shreelekhadotcom"
+
+let anothername = myYoutubename
+
+anothername = "chaiaurcode"
+
+//console.log(myYoutubename);
+//console.log(anothername);
+
+
+let userOne ={
+   email : "user@google.com",
+   upi: "user@ybl"
+
+}
+
+let userTwo = userOne
+
+console.log(userTwo.email);
+ userTwo.email= "shree@google.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
